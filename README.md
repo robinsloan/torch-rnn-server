@@ -6,7 +6,7 @@ More accurately: it's a set of shims laid beneath Justin Johnson's indispensable
 
 I explain what this project is all about [here](https://www.robinsloan.com/note/writing-with-the-machine); it's probably worth reading that before continuing.
 
-###Installation
+### Installation
 
 There are a couple of different ways to get `torch-rnn-server` running, but no matter what, you'll need to install Torch, the scientific computing framework that powers the whole operation. Those instructions are below, in the original `torch-rnn` README.
 
@@ -17,7 +17,7 @@ luarocks install https://raw.githubusercontent.com/benglard/htmlua/master/htmlua
 luarocks install https://raw.githubusercontent.com/benglard/waffle/master/waffle-scm-1.rockspec
 ```
 
-###Training and models
+### Training and models
 
 After installing Torch and all of `torch-rnn`'s dependencies, you can train a model on a corpus of your choosing; those instructions are below, in the original `torch-rnn` README. **Alternatively, you can download a pre-trained model** derived from ~150MB of old sci-fi stories:
 
@@ -29,7 +29,7 @@ unzip scifi-model.zip
 
 (You can read a bit more about the corpus and find a link to download it [here](https://www.robinsloan.com/note/writing-with-the-machine).)
 
-###Running the server
+### Running the server
 
 Finally! You can start the server with:
 
