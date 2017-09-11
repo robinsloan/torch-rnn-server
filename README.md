@@ -23,7 +23,7 @@ After installing Torch and all of `torch-rnn`'s dependencies, you can train a mo
 
 ```
 cd checkpoints
-wget http://from.robinsloan.com/rnn-writer/scifi-model.zip
+wget https://www.dropbox.com/s/vdw8el31nk4f7sa/scifi-model.zip
 unzip scifi-model.zip
 ```
 
